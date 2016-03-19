@@ -1,0 +1,25 @@
+{
+  "name": "typings-chai-as-promised",
+  "version": "0.1.0",
+  "description": "A Typescript binding for chai-as-promised",
+  "main": "lib/chai-as-promised.d.ts",
+  "scripts": {
+    "test": "cd test && typings install && tsc && mocha chai-as-promised_spec.js",
+    "install": "cd test && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olivr70/typings-chai-as-promised.git"
+  },
+  "keywords": [
+    "chai",
+    "promise",
+    "typescript"
+  ],
+  "author": "Olivier CHEVET",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olivr70/typings-chai-as-promised/issues"
+  },
+  "homepage": "https://github.com/olivr70/typings-chai-as-promised#readme"
+}

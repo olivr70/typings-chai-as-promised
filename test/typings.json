@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "chai": "github:olivr70/npm-chai#v0.0.2",
+    "es6-promise": "registry:npm/es6-promise#3.0.0+20160211003958",
+    "promises-a-plus": "github:olivr70/typings-promises-a-plus#v1.0"
+  },
+  "devDependencies": {},
+  "ambientDependencies": {
+    "chai-as-promised": "file:../lib/chai-as-promised.d.ts"
+  },
+  "ambientDevDependencies": {
+    "mocha": "registry:dt/mocha#2.2.5+20151023103246"
+  }
+}

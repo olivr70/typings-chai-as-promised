@@ -11,3 +11,18 @@ and external modules is not well supported.
 
 As chai-as-promised provides extensions to chai types, and chai has already moved to an external module
 for Typings, it is necessary to port chai-as-promised.d.ts
+
+## Project structure
+
+To test the type definitions as it will be imported by typings, the test project is fully defined inside
+the test subfolder.
+
+This means that the project itself has no npm dependency.
+
+In the main project, **npm install** installs the test project, and **npm test** runs the test project
+
+### The test project
+
+Its typings.json installs chai-as-promised.d.ts by referencing is from its typings.json file.
+
+

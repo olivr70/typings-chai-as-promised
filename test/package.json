@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test for chai-as-promised Typescript binding",
+  "main": "chai_as_promised_spec.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Olivier Chevet",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.2.0",
+    "es6-promise": "^3.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}

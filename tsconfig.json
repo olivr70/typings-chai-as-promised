@@ -1,0 +1,7 @@
+{
+  "files": [
+    "lib/chai-as-promised.d.ts",
+    "test/typings/definitions/chai/index.d.ts",
+    "test/typings/definitions/promises-a-plus/index.d.ts"
+  ]
+}
